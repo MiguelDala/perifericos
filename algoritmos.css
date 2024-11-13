@@ -1,0 +1,57 @@
+body {
+    background-image: url('https://i0.wp.com/radio-covilha.pt/wp-content/uploads/2023/05/escola-profissional-do-fundao.jpg?fit=1739%2C811&ssl=1');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+section {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px 1;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: powderblue;
+} 
+
+* Adicionar estilos para os botões */
+.navigation-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.navigation-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navigation-buttons button:hover {
+    background-color: #45a049;
+}
