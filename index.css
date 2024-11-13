@@ -10,11 +10,14 @@ body {
 h2, h3, h4, h5, h6 {
     text-align: center;
     margin: 10px 0;
+    color: #ffcc00;
 }
 
 section {
-
-    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
 }
 
 ul {
@@ -28,12 +31,12 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 ul li a:hover {
     text-decoration: underline;
-    color: powderblue;
+    color: #ffcc00;
 }
 
 * Adicionar estilos para os botões */
@@ -55,4 +58,48 @@ ul li a:hover {
 
 .navigation-buttons button:hover {
     background-color: #45a049;
+}
+
+/* Estilo do Container */
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+/* Responsividade básica */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    section {
+        width: 100%;
+        padding: 10px;
+        margin: 5px auto;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-size: 1.2rem;
+        margin: 8px 0;
+    }
+
+    ul {
+        padding: 5px;
+    }
+
+    ul li {
+        margin-bottom: 10px;
+    }
+
+    a {
+        font-size: 1rem;
+        display: block;
+        padding: 5px;
+    }
 }

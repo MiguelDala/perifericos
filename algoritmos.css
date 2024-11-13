@@ -7,34 +7,6 @@ body {
     margin: 40px;
 }
 
-h2, h3, h4, h5, h6 {
-    text-align: center;
-    margin: 10px 0;
-}
-
-section {
-    margin: 10px 0;
-}
-
-ul {
-    list-style-type: none;
-    padding: 5px 1;
-}
-
-ul li {
-    margin-bottom: 20px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-ul li a:hover {
-    text-decoration: underline;
-    color: powderblue;
-} 
-
 * Adicionar estilos para os botões */
 .navigation-buttons {
     text-align: center;
@@ -54,4 +26,38 @@ ul li a:hover {
 
 .navigation-buttons button:hover {
     background-color: #45a049;
+}
+
+/* Estilo do Container */
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 1200px;
+    width: 90%;
+    color: white; /* Para garantir que o texto seja legível */
+}
+
+h1 {
+    text-align: center;
+    color: #ffcc00;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+h2, h3 {
+    color: #ffcc00;
+}
+
+/* Responsividade */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    body {
+        margin: 10px;
+    }
 }
